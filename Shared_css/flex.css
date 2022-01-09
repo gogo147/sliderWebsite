@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_index, .left_experience, .left_contact{
+    width: 50%;
+    height: 600px;
+    background: url(../Assets/Img/palm.jpg) no-repeat center / cover;
+    border-radius: 8px;
+}
+.left_experience{
+    background: url(../Assets/Img/newyork.jpg) no-repeat center / cover;
+}
+.left_contact{
+    background: url(../Assets/Img/water.jpg) no-repeat center / cover;
+}
+.right{
+    width: 50%;
+    min-height: 400px;
+    background-color: #5c5252;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -150px;
+}
+.right h1{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.right p{
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 1rem;
+}
+.right a{
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+.right a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 20px;
+    }
+    .left_index,.left_experience,.left_contact{
+        width: 100%;
+        height: 400px;
+    }
+    .right{
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+    }
+}

@@ -1,0 +1,35 @@
+.Hero {
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+.Hero .imgHero {
+    min-height: 100vh;
+    width: 100%;
+    background: url('../Assets/Img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-left {
+    position: absolute;
+    top: 60%;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+    font-size: 2.5rem;
+    transform: translate(0, -50%);
+    margin-left: 5%;
+}
+
+.btn-right {
+    position: absolute;
+    top: 60%;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 2.5rem;
+    transform: translate(0, -50%);
+    margin-right: 5%;
+    
+}
